@@ -19,19 +19,19 @@ public class TranslationController {
 
         for (int i = 0; i < first.length(); i++){
             char c = first.charAt(i);
-            c += 5;
+            c += 1000;
             first = first.replace(first.charAt(i), c);
         }
 
         for (int i = 0; i < second.length(); i++){
             char c = second.charAt(i);
-            c -= 3;
+            c -= 300;
             second = second.replace(second.charAt(i), c);
         }
 
         for (int i = 0; i < third.length(); i++){
             char c = third.charAt(i);
-            c *= 4;
+            c *= 42;
             third = third.replace(third.charAt(i), c);
         }
 
@@ -50,19 +50,19 @@ public class TranslationController {
 
         for (int i = 0; i < first.length(); i++){
             char c = first.charAt(i);
-            c -= 5;
+            c -= 1000;
             first = first.replace(first.charAt(i), c);
         }
 
         for (int i = 0; i < second.length(); i++){
             char c = second.charAt(i);
-            c += 3;
+            c += 300;
             second = second.replace(second.charAt(i), c);
         }
 
         for (int i = 0; i < third.length(); i++){
             char c = third.charAt(i);
-            c /= 4;
+            c /= 42;
             third = third.replace(third.charAt(i), c);
         }
 
